@@ -1,0 +1,18 @@
+# Problem: Insertion Sort
+# Time Complexity: O(n²)
+# Space Complexity: O(1)
+
+def insertionSort(nums):
+
+    for i in range(1,len(nums)):
+        key = nums[i]
+        j = i-1
+        while j >= 0 and nums[j] > key:
+            nums[j+1] = nums[j]
+            j -= 1
+        nums[j+1] = key
+    return nums
+
+nums = [5,2,4,6,1,3]
+
+print(insertionSort(nums))

@@ -1,3 +1,8 @@
+# Problem: Rotate Image
+# Approach: Transpose + Reverse Rows
+# Time Complexity: O(n²)
+# Space Complexity: O(1)
+
 def rotate(matrix) -> None:
     for i in range(len(matrix)):
         for j in range(i+1,len(matrix)):

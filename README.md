@@ -10,7 +10,7 @@ This repository contains my DSA learning journey, including problem-solving appr
 
 - Language: Python 🐍
 - Focus: Data Structures & Algorithms
-- Goal: Build strong problem-solving skills for Software Engineering interviews.
+- Goal: Build strong problem-solving skills.
 
 ---
 

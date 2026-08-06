@@ -1,3 +1,8 @@
+# Problem: Determine if Matrix Can Rotate to Target
+# Approach: Rotate 90 degrees repeatedly
+# Time Complexity: O(n²)
+# Space Complexity: O(1)
+
 def MatrixRotation(matrix,target):
     if matrix==target:
         return True
